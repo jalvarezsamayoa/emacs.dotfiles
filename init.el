@@ -5,6 +5,8 @@
 ;; This is the first thing to get loaded.
 ;;
 ;; remember this directory
+(require 'org)
+
 (setq starter-kit-dir
       (file-name-directory (or load-file-name (buffer-file-name))))
 
